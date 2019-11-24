@@ -31,28 +31,7 @@ class CalculatorTests: XCTestCase {
     }
 
 
-    func testAdd() {
-        let result = calculator.add(1,2)
-        XCTAssertEqual(result, 3, "Expected 3, but got\(result)")
-        
-    }
-
-    func testSubstract() {
-        let result = calculator.substract(3, 1)
-        XCTAssertEqual(result, 2, "Expected 2, but got\(result)")
-        
-    }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+    
+    
 
 }
